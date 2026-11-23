@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Krishna<span>.</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu" id="menu">☰</div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Krishna Kadiya</span></h1>
+            <h2>I'm a <span id="typing"></span></h2>
+            <p class="description">
+                I create modern, responsive and user-friendly websites.
+                Passionate about web development, technology and creative ideas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-circle">
+                <span>KK</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p>
+            I'm Krishna Kadiya, an aspiring web developer interested in
+            designing and developing creative digital experiences.
+            I enjoy learning new technologies and building practical projects
+            using HTML, CSS, JavaScript and Python.
+        </p>
+    </section>
+
+    <section class="skills section" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">MySQL</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-icon">🏠</div>
+                <h3>House Price Prediction</h3>
+                <p>A machine learning project that predicts house prices based on property details.</p>
+                <span>Python | Machine Learning</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🤖</div>
+                <h3>AI Chatbot</h3>
+                <p>An intelligent chatbot designed to answer user questions and provide information.</p>
+                <span>Python | NLP | AI</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">💧</div>
+                <h3>Water Supply Management</h3>
+                <p>A system to manage customers, orders, deliveries and water bottle stock.</p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <p>Have a project or opportunity? Let's connect!</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="mailto:krishnakadiya3@gmail.com">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Krishna Kadiya. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
